@@ -9,7 +9,9 @@
       "request": "launch",
       "name": "client: chrome",
       "url": "http://localhost:3000/",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}",
+      "userDataDir": "C:\\ProgramData\\pwa-chrome",
+      "runtimeArgs": ["--profile-directory=CCPro", "--remote-debugging-port=9222"]
     },
     {
       "name": "server: nuxt",
