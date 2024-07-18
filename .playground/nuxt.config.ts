@@ -6,6 +6,20 @@ export default defineNuxtConfig({
 
   extends: ['..'],
 
+  vuetify: {
+    vuetifyOptions: {
+      theme: {
+        themes: {
+          light: {
+            colors: {
+              primary: 'blue',
+            },
+          },
+        },
+      },
+    },
+  },
+
   modules: [
     '@nuxt/eslint',
   ],
@@ -13,7 +27,7 @@ export default defineNuxtConfig({
   eslint: {
     checker: true,
     config: {
-      standalone: false,      
-    },    
+      standalone: false,
+    },
   },
 })
