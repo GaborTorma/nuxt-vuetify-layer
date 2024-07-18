@@ -12,6 +12,7 @@
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "release": "dotenv release-it",
     "postinstall": "pnpm dev:prepare"
   },
   "peerDependencies": {
@@ -27,6 +28,8 @@
   "devDependencies": {
     "@gabortorma/antfu-eslint-config": "^0.5.16",
     "@types/node": "^20.14.11",
+    "dotenv-cli": "^7.4.2",
+    "release-it": "^17.6.0",
     "typescript": "^5.5.3"
   }
 }
