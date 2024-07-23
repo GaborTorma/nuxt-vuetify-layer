@@ -8,14 +8,14 @@
   "repository": {
     "url": "git+ssh://git@github.com/gabortorma/nuxt-vuetify-layer.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "nuxt",
     "layer",
     "vuetify"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi dev .playground",
